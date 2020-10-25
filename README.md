@@ -19,12 +19,8 @@ The design specifications for the MechaCar suspension coils dictate that the var
 
 ![](https://github.com/Stewartsl17/MechaCar_Statistical_Analysis/blob/main/Images/T-Test_Suspension%20-%20C3.png)
 
+Within this part of the analysis, we were to perform t-tests to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch. Our null hypothesis was that there is no statistical difference between all manufacturing lots and each lot individually. Based on the p-value, we can't conclude that a significant difference exists. 
+
 ## Study Design: MechaCar vs Competition
 
-2. Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
-
-3. In your description, address the following questions:
-   What metric or metrics are you going to test? 
-   What is the null hypothesis or alternative hypothesis?
-   What statistical test would you use to test the hypothesis? And why?
-   What data is needed to run the statistical test?
+In order to create comparison analysis between the MechaCar and other competition, we would need to compare a variety of factors between MechaCar and others. The most interesting metrics for our design should be vehicle dimensions, cost, maintenance cost, and safety rating. The null hypothesis is that there is statistical difference between the different variables and the impact on popularity. In order to check this, I would perform a new multiple linear regression analysis between these variables among MechaCar and versus other car companies.  
