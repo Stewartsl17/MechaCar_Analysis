@@ -7,10 +7,10 @@ library(dplyr)
 MechaCar_mpg <- read_csv("~/Desktop/GW Boot Camp/Module 15 - R/MechaCar_Statistical_Analysis/MechaCar_mpg.csv")
 
 # perform linear regression using lm function with all six variables 
-lm(formula = vehicle_length ~ mpg + ground_clearance + spoiler_angle + AWD + vehicle_weight, data = MechaCar_mpg)
+lm(formula = mpg ~ vehicle_length + ground_clearance + spoiler_angle + AWD + vehicle_weight, data = MechaCar_mpg)
 
 # use the summary function to determine the p-value and the r-squared value for the linear regression
-summary(lm(vehicle_length ~ mpg + ground_clearance + spoiler_angle + AWD + vehicle_weight, data = MechaCar_mpg))
+summary(lm(mpg ~ vehicle_length + ground_clearance + spoiler_angle + AWD + vehicle_weight, data = MechaCar_mpg))
 
 # Challenge 2: Create Visualizations for the Trip Analysis 
 
@@ -37,3 +37,4 @@ t.test(log10(Lot2$PSI),mu=mean(log10(Suspension_Coil$PSI)))
 
 Lot3 <- subset(Suspension_Coil,Manufacturing_Lot=="Lot3")
 t.test(log10(Lot3$PSI),mu=mean(log10(Suspension_Coil$PSI)))
+
