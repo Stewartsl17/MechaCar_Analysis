@@ -10,13 +10,14 @@ Based on this, we can see that vehicle_weight, spoiler_angle, and AWD have no im
 
 ## Summary Statistics on Suspension Coils
 
-Write a short summary using screenshots from your total_summary and lot_summary dataframes, and address the following question:
+![]() <br>
+![]() <br> 
 
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 
 ## T-Tests on Suspension Coils
 
-Briefly summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.
+![]()
 
 ## Study Design: MechaCar vs Competition
 
